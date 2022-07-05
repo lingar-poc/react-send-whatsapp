@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {WhatsAppSender} from "./whatsAppSender";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <main className= "App">
        <h1>WhatsApp Sender: </h1>
 
-
+        <WhatsAppSender/>
         <p>yimprogramming.com</p>
       </main>
     </div>
