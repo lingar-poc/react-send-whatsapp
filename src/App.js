@@ -23,6 +23,8 @@ function App() {
 
             </p>
 
+            <a href={"https://github.com/lingar-poc/react-send-whatsapp"}>github repository</a>
+
 
             <footer>
                 <p>
