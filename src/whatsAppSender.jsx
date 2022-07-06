@@ -15,7 +15,7 @@ export function WhatsAppSender() {
         <div>
             <p>Put here your number, and send </p>
 
-            <input type="text" value={phoneNumber}
+            <input  className= "tel-input" type="text" value={phoneNumber}
                    onChange={
                        (ev) => {
                            setPhoneNumber(ev.target.value);

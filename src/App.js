@@ -3,30 +3,44 @@ import './App.css';
 import {WhatsAppSender} from "./whatsAppSender";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <main className= "App">
-       <h1>WhatsApp Sender: </h1>
+    return (
+        <div className="App">
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo"/>
 
-        <WhatsAppSender/>
-        <p>yimprogramming.com</p>
-      </main>
-    </div>
-  );
+            </header>
+            <main className="App">
+                <h1>WhatsApp Sender: </h1>
+
+                <WhatsAppSender/>
+            </main>
+
+            <p>Do you know the situation when you want to send a whatsApp
+                message,
+                but you don't want to save the number? </p>
+            <p>
+                with this sender you can do it.
+
+            </p>
+
+
+            <footer>
+                <p>
+                    Developed by Izhar Mashkif, a professional web developer,
+
+                    yimprogramming@gmail.com,
+
+                    feel free to make contanct, I open to new offers (as
+                    contractor, thanks).
+                </p>
+
+                <p>I am a web developer since 2014. I control well in all
+                    software development aspects. Java+Spring Boot at server
+                    side, React/Angular at client side. </p>
+            </footer>
+
+        </div>
+    );
 }
 
 export default App;
