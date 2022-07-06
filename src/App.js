@@ -32,7 +32,7 @@ function App() {
 
                     yimprogramming@gmail.com,
 
-                    feel free to make contanct, I open to new offers (as
+                    feel free to contact, I open to new offers (as
                     contractor, thanks).
                 </p>
 
